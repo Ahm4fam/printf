@@ -99,4 +99,6 @@ That way, _putchar only needs to call write one time, passing to it the whole bu
 .sp
 .SH BUGS
 _printf does not currently work on non-custom conversion modifiers for field width, precision and some flag characters such as ('0', '-'). For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
+.SH AUTHORS
 
+Ahm4fam Ahmed Seid
